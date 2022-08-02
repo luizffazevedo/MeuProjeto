@@ -8,7 +8,8 @@ def listamega():
     numeros = []
     for n in range(1,7):
         if n not in numeros :
-            numeros.append(randint(1,100))
+            while len(numeros) >= 6 :
+                numeros.append(randint(1,100))
     sorteionum['text'] = numeros
    
 
