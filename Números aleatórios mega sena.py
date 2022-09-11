@@ -1,9 +1,6 @@
 from random import randint
 from tkinter import *
 
-
-
-
 def listamega():
     numeros = []
     for n in range(1,7):
@@ -14,7 +11,6 @@ def listamega():
     return numeros
 
 
-        
 janela = Tk()
 janela.title('Sorteio mega sena')
 textoinicial = Label(janela,text = 'Sorteio números Mega sena .')
